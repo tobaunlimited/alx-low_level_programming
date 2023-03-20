@@ -12,7 +12,8 @@ int main(void)
     char letter = 'a';
     int i;
 
-    for (i = 0; i < 26; i++) {
+    for (i = 0; i < 26; i++)
+   : {
         putchar(letter);
         letter++;
     }
