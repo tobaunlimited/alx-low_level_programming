@@ -1,46 +1,20 @@
 #include "main.h"
 
 /**
- * print_putchar - prints _putchar followed by a new line
- *
- * Return: 0 on success
+ * main -  prints _putchar, followed by a new line
+ * Return: Always 0 (Success)
  */
-int print_putchar(void)
+int main(void)
 {
-    char c;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-    c = '_';
-    _putchar(c);
-
-    c = 'p';
-    _putchar(c);
-
-    c = 'u';
-    _putchar(c);
-
-    c = 't';
-    _putchar(c);
-
-    c = 'c';
-    _putchar(c);
-
-    c = 'h';
-    _putchar(c);
-
-    c = 'a';
-    _putchar(c);
-
-    c = 'r';
-    _putchar(c);
-
-    c = '\n';
-    _putchar(c);
-
-    return (0);
+	return (0);
 }
-
-int _putchar(char c)
-{
-    return (write(1, &c, 1));
-}
-
